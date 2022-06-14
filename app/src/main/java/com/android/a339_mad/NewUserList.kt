@@ -40,7 +40,7 @@ class NewUserList : AppCompatActivity() {
     {
         val intent = Intent(this, update_popup::class.java)
         startActivity(intent)
-        //Toast.makeText(this,"I am X Neutral",Toast.LENGTH_SHORT).show()
+        
     }
     
 
@@ -63,7 +63,7 @@ class NewUserList : AppCompatActivity() {
                    _, _ ->
                       dbref.child("user").child("title").removeValue()
 
-               //Toast.makeText(this, " clicked yes", Toast.LENGTH_SHORT).show()
+              
            }
 
            builder1.setNegativeButton(
