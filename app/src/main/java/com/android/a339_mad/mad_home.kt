@@ -19,30 +19,7 @@ class mad_home : AppCompatActivity() {
 
 
 
-//    fun onButtonShowPopupWindowClick(view: View?) {
-//
-//        // inflate the layout of the popup window
-//        val inflater = getSystemService(LAYOUT_INFLATER_SERVICE) as LayoutInflater
-//        val popupView: View = inflater.inflate(R.layout.popup_window, null)
-//
-//        // create the popup window
-//        val width = LinearLayout.LayoutParams.WRAP_CONTENT
-//        val height = LinearLayout.LayoutParams.WRAP_CONTENT
-//        val focusable = true // lets taps outside the popup also dismiss it
-//        val popupWindow = PopupWindow(popupView, width, height, focusable)
-//
-//        // show the popup window
-//        // which view you pass in doesn't matter, it is only used for the window tolken
-//        popupWindow.showAtLocation(view, Gravity.CENTER, 0, 0)
-//
-//        // dismiss the popup window when touched
-//        popupView.setOnTouchListener(object : View.OnTouchListener {
-//            override fun onTouch(v: View?, event: MotionEvent?): Boolean {
-//                popupWindow.dismiss()
-//                return true
-//            }
-//        })
-//    }
+
 
     fun onButtonShowPopupWindowClick(view: View?){
         val intent = Intent(this@mad_home, popup_window::class.java)
