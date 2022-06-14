@@ -46,8 +46,6 @@ class LoginActivity: AppCompatActivity()
 
 
 
-//    val intent =Intent(this@MainActivity, mad_home::class.java)
-//    startActivity(intent)
 
     }
 
@@ -56,7 +54,7 @@ class LoginActivity: AppCompatActivity()
     {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
-        //Toast.makeText(this,"I am X Neutral",Toast.LENGTH_SHORT).show()
+        
     }
 
 }
