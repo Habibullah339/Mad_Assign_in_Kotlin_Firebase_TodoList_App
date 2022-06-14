@@ -23,7 +23,7 @@ class NewAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<
 
         holder.title.text = currentitem.title
         holder.desc.text = currentitem.desc
-        //holder.age.text = currentitem.age
+        
 
     }
 
@@ -37,7 +37,7 @@ class NewAdapter(private val userList : ArrayList<User>) : RecyclerView.Adapter<
 
         val title : TextView = itemView.findViewById(R.id.display_name)
         val desc : TextView = itemView.findViewById(R.id.display_name2)
-        //val age : TextView = itemView.findViewById(R.id.tvage)
+        
 
     }
 
