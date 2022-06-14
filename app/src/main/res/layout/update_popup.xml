@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update_popup"
+    android:background="#001E2B"
+    >
+
+    <TextView
+        android:id="@+id/updatetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="25dp"
+        android:text="UPDATE ITEM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/update_title"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Updated title. . ."
+android:textColor="#F7BA2F"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/updatetxt"
+        app:layout_constraintStart_toStartOf="@+id/updatetxt"
+        app:layout_constraintTop_toBottomOf="@+id/updatetxt" />
+
+    <EditText
+        android:id="@+id/update_desc"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:textColor="#F7BA2F"
+        android:hint="Updated desc. . ."
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/update_title"
+        app:layout_constraintStart_toStartOf="@+id/update_title"
+        app:layout_constraintTop_toBottomOf="@+id/update_title" />
+
+    <Button
+
+        android:id="@+id/updatebtn_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Update Record"
+        android:background="#F7BA2F"
+        android:textColor="@color/black"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_desc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

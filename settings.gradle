@@ -1,0 +1,2 @@
+rootProject.name = "339_Mad"
+include ':app'
